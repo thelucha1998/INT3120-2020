@@ -173,7 +173,6 @@
       "b": "Phương tiện giao thông thô sơ đường bộ và xe máy chuyên dùng.",
       "c": ""
     },
-
     "12": {
       "a": "Người điều khiển, người sử dụng phương tiện tham gia giao thông đường bộ",
       "b": "Người điều khiển, dẫn dắt súc vật, người đi bộ trên đường bộ",
@@ -189,7 +188,6 @@
       "b": " Phá hoại hệ thống thoát nước và các công trình, thiết bị khác thuộc kết cấu hạ tầng giao thông đường bộ.",
       "c": ""
     },
-
     "15": {
       "a": "Đua xe, cổ vũ đua xe, tổ chức đua xe trái phép.",
       "b": " Lạng lách, đánh võng.",
@@ -199,14 +197,11 @@
       "a": "Bị nghiêm cấm.",
       "b": " Không bị nghiêm cấm.",
       "c": ""
-
     },
-
     "17": {
       "a": "Người điều khiển xe ô tô, máy kéo, xe máy chuyên dùng mà trong máu có nồng độ cồn vượt quá 50 miligam/100 mililit máu hoặc 0.25 miligam/1 lit khí thở.",
       "b": " Người điều khiển xe ô tô, máy kéo, xe máy chuyên dùng trên đường mà trong máu hoặc hơi thở có nồng độ cồn.",
       "c": "Người điều khiển xe ô tô, máy kéo, xe máy chuyên dùng trên đường mà trong máu có nồng độ cồn vượt quá 80 miligam/100 mililit máu hoặc 40 miligam/1 lit khí thở."
-
     },
     "18": {
       "a": "Nồng độ cồn vượt quá 50 miligam/100 mililit máu.",
@@ -261,7 +256,7 @@
     "28": {
       "a": "Được phép.",
       "b": "Tùy trường hợp",
-      "c": " Không được phép."     
+      "c": " Không được phép."
     },
     "29": {
       "a": "Đội mũ bảo hiểm và cài quai đúng cách",
@@ -522,6 +517,182 @@
       "a": "- Có giấy phép lái xe phù hợp với loại xe được phép điều khiển, xe cơ giới đảm bảo các quy định về chất lượng, an toàn kỹ thuật và bảo vệ môi trường. ",
       "b": "Có giấy chứng nhận trách nhiệm bảo hiểm dân sự của chủ xe cơ giới còn hiệu lực, nộp phí sử dụng đường bộ theo quy định.",
       "c": ""
+    },
+    "81": {
+      "a": "Biển 1",
+      "b": "Biển 1 và 3",
+      "c": "Biển 2"
+    },
+    "82": {
+      "a": "Biển 1",
+      "b": "Biển 3",
+      "c": "Biển 2"
+    },
+    "83": {
+      "a": "Biển 1",
+      "b": "Biển 1 và 3",
+      "c": "Biển 3"
+    },
+    "84": {
+      "a": "Biển 1 và 2",
+      "b": "Biển 2 và 3",
+      "c": "Biển 1"
+    },
+    "85": {
+      "a": "Biển 1",
+      "b": "Biển 2 và 3",
+      "c": "Biển 3"
+    },
+    "86": {
+      "a": "Biển 2",
+      "b": "Biển 1",
+      "c": "Biển 3"
+    },
+    "87": {
+      "a": "Biển 1 và 3",
+      "b": "Biển 1 và 2",
+      "c": "Biển 2 và 3"
+    },
+    "88": {
+      "a": "Biển 1 và 2",
+      "b": "Biển 2 và 3",
+      "c": "Biển 1 và 3"
+    },
+    "89": {
+      "a": "Biển 3",
+      "b": "Biển 1",
+      "c": "Biển 2"
+    },
+    "90": {
+      "a": "Biển 1 và 2",
+      "b": "Biển 1 và 3",
+      "c": "Cả ba biển"
+    },
+    "91": {
+      "a": "Biển 1",
+      "b": "Biển 2 và 3",
+      "c": "Biển 2"
+    },
+    "92": {
+      "a": "Biển 1 và 3",
+      "b": "Biển 2",
+      "c": "Biển 3"
+    },
+    "93": {
+      "a": "Biển 1",
+      "b": "Biển 3",
+      "c": "Biển 2"
+    },
+    "94": {
+      "a": "Biển 1",
+      "b": "Biển 3",
+      "c": "Biển 2"
+    },
+    "95": {
+      "a": "Biển 1",
+      "b": "Biển 2",
+      "c": "Biển 3"
+    },
+    "96": {
+      "a": "Biển 1",
+      "b": "Biển 2",
+      "c": "Biển 3"
+    },
+    "97": {
+      "a": "Biển 1",
+      "b": "Biển 2",
+      "c": "Biển 3"
+
+    },
+    "98": {
+      "a": "Biển 1",
+      "b": "Biển 2",
+      "c": "Biển 3"
+    },
+    "99": {
+      "a": "Biển 1 và 3",
+      "b": "Biển 1 và 2",
+      "c": "Biển 2 và 3"
+    },
+    "100": {
+      "a": "Biển 1",
+      "b": "Biển 2",
+      "c": "Biển 3"
+    },
+    "101": {
+      "a": "Không biển nào",
+      "b": "Biển 1 và 2",
+      "c": "Biển 2 và 3"
+    },
+    "102": {
+      "a": "Biển 1 và 2",
+      "b": "Biển 1 và 3",
+      "c": "Biển 2 và 3"
+    },
+    "103": {
+      "a": "Biển 1",
+      "b": "Biển 2",
+      "c": "Biển 3"
+    },
+    "104": {
+      "a": "Cấm các loại xe ở biển phụ đi vào",
+      "b": "Cấm các loại xe cơ giới đi vào trừ loại xe ở biển phụ",
+      "c": ""
+    },
+    "105": {
+      "a": "Biển 1",
+      "b": "Biển 2",
+      "c": "Không biển nào"
+    },
+    "106": {
+      "a": "Biển 1 ",
+      "b": "Biển 2 ",
+      "c": "Cả hai biển"
+    },
+    "107": {
+      "a": "Biển 1",
+      "b": "Biển 2",
+      "c": "Không biển nào "
+    },
+    "108": {
+      "a": "Biển 1",
+      "b": "Biển 2",
+      "c": "Cả ba biển"
+    },
+    "109": {
+      "a": "Biển 1 và 3",
+      "b": "Biển 2 và 3",
+      "c": "Biển 1 và 2"
+    },
+    "110": {
+      "a": "Được phép",
+      "b": "Không được phép",
+      "c": ""
+    },
+    "111": {
+      "a": "Có",
+      "b": "Không",
+      "c": ""
+    },
+    "112": {
+      "a": "Biển 2 và 3",
+      "b": "Biển 1 và 2",
+      "c": "Biển 1 và 3"
+    },
+    "113": {
+      "a": "Biển 1",
+      "b": "Biển 2",
+      "c": "Biển 2 và 3"
+    },
+    "114": {
+      "a": "Biển 1 và 2",
+      "b": " Biển 1 và 3",
+      "c": "Biển 2 và 3"
+    },
+    "115": {
+      "a": "Biển 1",
+      "b": "Biển 2",
+      "c": "Biển 3"
     }
   },
   {
@@ -604,6 +775,41 @@
     "77": "Là thiếu văn hóa giao thông.",
     "78": "Chấp hành quy định về tốc độ, đèn tín hiệu, biển báo hiệu, vạch kẻ đường khi lái xe. Chấp hành hiệu lệnh, chỉ dẫn của người điều khiển giao thông, nhường đường cho người đi bộ, người già, trẻ em, người khuyết tật.",
     "79": "Điều khiển xe đi bên phải chiều đi của mình.Đi đúng phần đường, làn đường quy định; đội mũ bảo hiểm đúng quy cách.",
-    "80": "Có giấy phép lái xe phù hợp với loại xe được phép điều khiển, xe cơ giới đảm bảo các quy định về chất lượng, an toàn kỹ thuật và bảo vệ môi trường. Có giấy chứng nhận trách nhiệm bảo hiểm dân sự của chủ xe cơ giới còn hiệu lực, nộp phí sử dụng đường bộ theo quy định"
+    "80": "Có giấy phép lái xe phù hợp với loại xe được phép điều khiển, xe cơ giới đảm bảo các quy định về chất lượng, an toàn kỹ thuật và bảo vệ môi trường. Có giấy chứng nhận trách nhiệm bảo hiểm dân sự của chủ xe cơ giới còn hiệu lực, nộp phí sử dụng đường bộ theo quy định",
+    "81":"Biển 2",
+    "82":"Biển 1",
+    "83":"Biển 3",
+    "84":"Biển 2 và 3",
+    "85":"Biển 1",
+    "86":"Biển 3",
+    "87":"Biển 1 và 3",
+    "88":"Biển 2 và 3",
+    "89":"Biển 3",
+    "90":"Biển 1 và 3",
+    "91":"Biển 1",
+    "92":"Biển 2",
+    "93":"Biển 3",
+    "94":"Biển 1",
+    "95":"Biển 2",
+    "96":"Biển 1",
+    "97":"Biển 2",
+    "98":"Biển 3",
+    "99":"Biển 1 và 2",
+    "100":"Biển 1",
+    "101":"Biển 2 và 3",
+    "102":"Biển 1 và 3",
+    "103":"Cấm các loại xe ở biển phụ đi vào",
+    "104":"Biển 1",
+    "105":"Biển 1",
+    "106":"Biển 2",
+    "107":"Biển 2",
+    "108":"Biển 2",
+    "109":"Biển 1 và 2",
+    "110":"Không được phép",
+    "111":"Có",
+    "112":"Biển 1 và 3",
+    "113":"Biển 2",
+    "114":"Biển 1 và 2",
+    "115":"Biển 3"
   }
     ]

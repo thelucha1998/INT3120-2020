@@ -38,7 +38,7 @@ class Questions {
 
   static initDb() async {
     Directory documentsDirectory = await getApplicationDocumentsDirectory();
-    String path = join(documentsDirectory.path, "data6.db");
+    String path = join(documentsDirectory.path, "data8.db");
     var theDb = await openDatabase(path, version: 1, onCreate: _onCreate);
     return theDb;
   }
@@ -97,8 +97,9 @@ class Questions {
 
   static Future<int> completionPercentage() async {
     var dbClient = await db;
-    int allElementsCount =
-        (await dbClient.rawQuery("SELECT * FROM questions")).length;
+//    int allElementsCount =
+//        (await dbClient.rawQuery("SELECT * FROM questions")).length;
+    int allElementsCount = 20;
     int completedElementsCount = (await dbClient
             .rawQuery("SELECT * FROM questions WHERE completed=\"true\""))
         .length;

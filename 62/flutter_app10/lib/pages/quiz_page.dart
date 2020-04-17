@@ -125,7 +125,6 @@ class _quizpageState extends State<quizpage> {
                       11,
                       9,
                       44,
-                      76,
                       23,
                       75,
                       46,
@@ -146,22 +145,18 @@ class _quizpageState extends State<quizpage> {
                       68,
                       47,
                       27,
-                      77,
                       22,
                       26,
                       24,
                       18,
                       21,
                       38,
-                      80,
                       42,
                       53,
-                      79,
                       25,
                       73,
                       58,
                       3,
-                      78,
                       1,
                       7,
                       34,
@@ -349,7 +344,7 @@ class _quizpageState extends State<quizpage> {
             context: context,
             builder: (context) => AlertDialog(
               title: Text(
-                "Quizstar",
+                "Học lý thuyết",
               ),
               content: Text("You Can't Go Back At This Stage."),
               actions: <Widget>[
@@ -368,9 +363,9 @@ class _quizpageState extends State<quizpage> {
         body: Column(
           children: <Widget>[
             Expanded(
-              flex: 3,
+//              flex: 3,
               child: Container(
-                padding: EdgeInsets.all(15.0),
+                padding: EdgeInsets.only(left: 15, right: 15, bottom: 15),
                 alignment: Alignment.bottomLeft,
                 child: Text(
                     "Câu hỏi: "+
@@ -383,7 +378,18 @@ class _quizpageState extends State<quizpage> {
               ),
             ),
             Expanded(
-              flex: 6,
+//              flex: 3,
+              child: Container(
+                decoration: new BoxDecoration(
+                  image: new DecorationImage(
+                    image: new ExactAssetImage('assets/images/computerr.png',),
+                    fit: BoxFit.cover,
+                  ),
+                ),
+              ),
+            ),
+            Expanded(
+              flex: 3,
               child: Container(
                 child: Column(
                   mainAxisAlignment: MainAxisAlignment.center,

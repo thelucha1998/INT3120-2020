@@ -7,15 +7,15 @@ import 'package:flutterapp10/pages/resultpage.dart';
 class getjson4 extends StatelessWidget {
   // accept the langname as a parameter
 
-  String langname;
-  getjson(this.langname);
+  String langname4;
+  getjson4(this.langname4);
   String assettoload;
 
   // a function
   // sets the asset to a particular JSON file
   // and opens the JSON
   setasset() {
-    if (langname == "Văn hóa, đạo đức nghề nghiệp người lái xe") {
+    if (langname4 == "Văn hóa, đạo đức nghề nghiệp người lái xe") {
       assettoload = "assets/cpp.json";
     }
   }
@@ -99,87 +99,7 @@ class _quizpageState extends State<quizpage> {
   //   print(random_array);
 
   // ----- END OF CODE
-  var random_array = [60,
-    39,
-    54,
-    16,
-    71,
-    29,
-    33,
-    2,
-    48,
-    31,
-    65,
-    13,
-    66,
-    74,
-    8,
-    4,
-    11,
-    9,
-    44,
-    76,
-    23,
-    75,
-    46,
-    69,
-    56,
-    36,
-    57,
-    10,
-    67,
-    59,
-    41,
-    40,
-    50,
-    62,
-    55,
-    6,
-    51,
-    68,
-    47,
-    27,
-    77,
-    22,
-    26,
-    24,
-    18,
-    21,
-    38,
-    80,
-    42,
-    53,
-    79,
-    25,
-    73,
-    58,
-    3,
-    78,
-    1,
-    7,
-    34,
-    61,
-    12,
-    35,
-    19,
-    51,
-    30,
-    5,
-    20,
-    14,
-    43,
-    72,
-    49,
-    37,
-    17,
-    15,
-    64,
-    63,
-    45,
-    70,
-    28,
-    32
-  ];
+  var random_array = [3,5,2,4,1];
 
   // overriding the initstate function to start timer as this screen is created
   @override
@@ -217,7 +137,7 @@ class _quizpageState extends State<quizpage> {
     canceltimer = false;
     timer = 30;
     setState(() {
-      if (j < 80) {
+      if (j < 5) {
         i = random_array[j];
         j++;
       }

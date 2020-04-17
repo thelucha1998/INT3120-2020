@@ -78,7 +78,7 @@ class QuestionCardState extends State<QuestionCard> {
         padding: const EdgeInsets.all(24),
         child: Column(crossAxisAlignment: CrossAxisAlignment.start, children: [
           Text(
-              "Question ${widget.questionIndex + 1}/${widget.randomQuestions == null ? 10 : widget.randomQuestions.length}",
+              "Câu hỏi ${widget.questionIndex + 1}/${widget.randomQuestions == null ? 10 : 20}",
               style: TextStyle(
                   color: Colors.white,
                   fontSize: 30,

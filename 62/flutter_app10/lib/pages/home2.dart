@@ -28,7 +28,7 @@ class _homepageState extends State<homepage> {
     "5 Câu",
   ];
 
-  Widget customcard(String langname1, String image, String des){
+  Widget customcard(String langname2, String image, String des){
     return Padding(
       padding: EdgeInsets.symmetric(
         vertical: 15.0,
@@ -40,7 +40,7 @@ class _homepageState extends State<homepage> {
             // in changelog 1 we will pass the langname name to ther other widget class
             // this name will be used to open a particular JSON file
             // for a particular language
-            builder: (context) => getjson(langname1),
+            builder: (context) => getjson2(langname2),
           ));
         },
         child: Material(
@@ -74,7 +74,7 @@ class _homepageState extends State<homepage> {
                 ),
                 Center(
                   child: Text(
-                    langname1,
+                    langname2,
                     style: TextStyle(
                       fontSize: 14.0,
                       color: Colors.white,
@@ -123,10 +123,8 @@ class _homepageState extends State<homepage> {
       ),
       body: ListView(
         children: <Widget>[
-          customcard("Khái niệm và quy tắc", images[0], des[0]),
           customcard("Hệ thống các biển báo đường bộ", images[1], des[1]),
-          customcard("Các thế sa hình", images[2], des[2]),
-          customcard("Văn hóa, đạo đức nghề nghiệp người lái xe", images[3], des[3]),
+
 
         ],
       ),

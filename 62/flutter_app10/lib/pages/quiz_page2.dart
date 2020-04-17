@@ -7,15 +7,15 @@ import 'package:flutterapp10/pages/resultpage.dart';
 class getjson2 extends StatelessWidget {
   // accept the langname as a parameter
 
-  String langname;
-  getjson2(this.langname);
+  String langname2;
+  getjson2(this.langname2);
   String assettoload;
 
   // a function
   // sets the asset to a particular JSON file
   // and opens the JSON
   setasset() {
-    if (langname == "Hệ thống các biển báo đường bộ") {
+    if (langname2 == "Hệ thống các biển báo đường bộ") {
       assettoload = "assets/java.json";
     }
   }
